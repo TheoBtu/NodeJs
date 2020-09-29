@@ -1,0 +1,32 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheoBtu/NodeJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheoBtu/NodeJs/issues"
+  },
+  "homepage": "https://github.com/TheoBtu/NodeJs#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "faker": "^5.1.0",
+    "mongoose": "^5.10.7"
+  },
+  "devDependencies": {
+    "mongoose-data-seed": "^2.1.6",
+    "nodemon": "^2.0.4"
+  },
+  "mdSeed": {
+    "seedersFolder": "./src/db/seed"
+  }
+}
