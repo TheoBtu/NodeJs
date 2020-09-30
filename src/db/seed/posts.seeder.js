@@ -1,5 +1,5 @@
 const { Seeder } = require('mongoose-data-seed');
-const  Post = require ('../server/models');
+const  Post = require ('../models/postModel');
 const faker = require('faker');
 
 

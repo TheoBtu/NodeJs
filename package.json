@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TheoBtu/NodeJs.git"
@@ -17,7 +15,7 @@
   },
   "homepage": "https://github.com/TheoBtu/NodeJs#readme",
   "dependencies": {
-    "ejs": "^3.1.5",
+    "ejs-locals": "^1.0.2",
     "express": "^4.17.1",
     "faker": "^5.1.0",
     "mongoose": "^5.10.7"

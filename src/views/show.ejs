@@ -1,10 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Article sur pikachu</title>
-</head>
-<body>
+<% layout('layout/app') %>
 
-</body>
-</html>
+   <h1><%= post.title %></h1>
+   <div class="container">
+       <div class="post">
+           <img src="<%= post.image %>" alt="">
+           <p class="text-secondary">
+               <i>
+                   <%= post.description %>
+               </i>
+           </p>
+           <div class="content">
+               <p>
+                   <%= post.body %>
+               </p>
+           </div>
+       </div>
+   </div>
